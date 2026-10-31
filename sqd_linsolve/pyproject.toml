@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "sqd_linsolve"
+version = "1.1.0"
+description = "Sample-based (Krylov) quantum diagonalization for linear systems A x = b"
+readme = "README.md"
+requires-python = ">=3.10"
+authors = [{ name = "Taha Selim" }]
+license = { text = "MIT" }
+dependencies = ["numpy", "scipy", "qiskit>=2.3", "qiskit-aer>=0.17"]
+
+[project.optional-dependencies]
+hardware = ["qiskit-ibm-runtime>=0.40"]
+notebook = ["pandas", "matplotlib", "jinja2", "jupyter"]
+
+[tool.setuptools]
+packages = ["sqd_linsolve"]

@@ -1,0 +1,26 @@
+{
+ "gates": {
+  "1": {
+   "cx_per_circuit": 7,
+   "depth": 27,
+   "max_trotter_infidelity": 1.1102230246251565e-15
+  },
+  "4": {
+   "cx_per_circuit": 25,
+   "depth": 81,
+   "max_trotter_infidelity": 1.1102230246251565e-15
+  }
+ },
+ "counts": {
+  "00": 5051,
+  "01": 4270,
+  "10": 4122,
+  "11": 2557
+ },
+ "metrics": {
+  "F": 1.0,
+  "rel_err": 0.0,
+  "residual": 6.280369834735101e-16,
+  "Anorm": 0.0
+ }
+}

@@ -1,0 +1,31 @@
+{
+ "N": 16,
+ "krylov_support": 8,
+ "exact_dynamics": {
+  "R": 8,
+  "inside_SK": true,
+  "F": 0.9999999999999998,
+  "rel_err": 4.1567265425773174e-17,
+  "residual": 6.434865484555646e-17,
+  "Anorm": 4.7216205099642604e-17
+ },
+ "K": 136,
+ "trotter_S2": {
+  "R": 16,
+  "spurious_outside_SK": 8,
+  "sec": 1.2,
+  "F": 0.9999999999999998,
+  "rel_err": 0.0,
+  "residual": 0.0,
+  "Anorm": 0.0
+ },
+ "trotter_S8": {
+  "R": 16,
+  "spurious_outside_SK": 8,
+  "sec": 3.3,
+  "F": 0.9999999999999998,
+  "rel_err": 0.0,
+  "residual": 0.0,
+  "Anorm": 0.0
+ }
+}
